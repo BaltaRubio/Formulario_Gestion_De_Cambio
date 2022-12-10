@@ -1,0 +1,255 @@
+
+html
+{
+    width: 100%;
+    height: 100%;
+}
+body
+{
+    /*
+    height: 100%;
+    padding-top: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    */
+    color: black;
+    background-image: url(https://i.pinimg.com/originals/55/01/60/5501609ee45d514d1f2c4a63502045e2.gif);
+}
+
+.HTitulo{
+    background-color: yellow;
+    display: flex;
+    padding: .9%;
+}
+
+.HTitulo2{
+    text-align: right;
+    display: flex;
+    padding: .9%;
+}
+
+.nombreesp{
+    background-color: black;
+    color: yellow;
+    padding: 5%;
+    border: 3px solid yellow;
+    width: 35%;
+    height: 52%;
+    border-bottom-left-radius: 50px;
+    text-align: left;
+    margin-right: 80%;
+    margin-left: 15%;
+    top: 28%;
+    position: absolute;
+}
+
+.nombreesp:hover{
+    background-color: yellow;
+    color: black;
+    padding: 5%;
+    border: 3px solid yellow;
+    width: 35%;
+    height: 52%;
+    border-bottom-left-radius: 50px;
+    text-align: left;
+    margin-right: 80%;
+    margin-left: 15%;
+    top: 28%;
+    position: absolute;
+}
+
+.conectar{
+    background-color: black;
+    color: white;
+    padding: 2%;
+    border: 3px solid white;
+    width: 30%;
+    height: 25%;
+    margin-left: 55%;
+    margin-right: 15%;
+    top: 28%;
+    position: absolute;
+    text-align: left;
+}
+
+.conectar:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 2%;
+    border: 3px solid rgb(255, 255, 255);
+    width: 30%;
+    height: 25%;
+    margin-left: 55%;
+    margin-right: 15%;
+    top: 28%;
+    position: absolute;
+    text-align: left;
+}
+
+.servidor{
+    background-color: black;
+    color: white;
+    padding: 2%;
+    border: 3px solid white;
+    width: 30%;
+    height: 25%;
+    margin-left: 55%;
+    margin-right: 15%;
+    top: 55%;
+    position: absolute;
+    text-align: left;
+}
+
+.servidor:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 2%;
+    border: 3px solid rgb(255, 255, 255);
+    width: 30%;
+    height: 25%;
+    margin-left: 55%;
+    margin-right: 15%;
+    top: 55%;
+    position: absolute;
+    text-align: left;
+}
+
+#entrar:hover{
+    background-color: yellow;
+}
+
+#NUSU{
+    color: black;
+    border: aqua;
+}
+
+.TResultados{
+    background-color: black;
+    color: yellow;
+    padding: .5%;
+    border: 3px solid yellow;
+    width: 75%;
+    height: 65%;
+    text-align: left;
+    margin-right: 15%;
+    margin-left: 15%;
+    top: 22.5%;
+    position: absolute;
+}
+
+.table{
+    background: yellow;
+    color: black;
+    border: rgb(0, 0, 0);
+}
+
+.table:hover{
+    background: rgb(255, 255, 255);
+    color: black;
+    border: black;
+}
+
+
+
+.btn-primary{
+    background-color: aqua;
+    border: aqua;
+    color: black;
+    text-align: right;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    border: white;
+    color: black;
+}
+
+#warning{
+    background-color: yellow;
+    border: yellow;
+    color: black;
+    text-align: right;
+}
+
+#warning:hover{
+    background-color: white;
+    border: white;
+    color: black;
+}
+
+
+#mensaje
+{
+    width: 90%;
+    display: inline-block;
+}
+#enviar
+{
+    width: 9%;
+    display: inline-block;
+    vertical-align: baseline;
+}
+.card
+{
+    height: 80%;
+    background-color: #219EBC;
+    border-width: 0;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-color: black;    
+    padding: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.fondo
+{
+    position: relative;
+    bottom: 0;
+}
+input
+{
+    height:40px;
+    padding-left: 20px;
+    border-radius: 5px;
+    font-size: large;
+}
+.contenido
+{
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    border: 0;
+    padding: 0;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+strong
+{
+    padding: 0;
+    display: block;
+    font-size: medium;
+    margin: 0;
+    margin-bottom: 0;
+}
+.mensajes
+{
+    display: inline-block;
+    word-break: break-all;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color:aliceblue;
+    margin-right: 25px;
+    margin-top: 0;
+    padding-bottom: 5px;
+    line-height: 22px;
+    font-size: medium;
+    color: black;
+}
+.main
+{
+    height: 90%;
+    border-width: 0;
+}
+
